@@ -1,0 +1,82 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: crimson;
+    margin: 2px;
+    font-family: Tahoma;
+}
+#baner{
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+#mecze{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100vh;
+    width: 1200px;
+    align-items: center;
+}
+#blok1, #blok2, #blok3, #blok4, #blok5{
+    display: flex;
+    height: 150px;
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: crimson;
+    flex-direction: column;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+#blok1:hover, #blok2:hover, #blok3:hover, #blok4:hover, #blok5:hover{
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 50px;
+}
+#lewy{
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+}
+#prawy{
+    display: flex;
+    background-color: whitesmoke;
+    flex-direction: column;
+    align-items: end;
+}
+h2{
+    text-align: center;
+    letter-spacing: 7px;
+}
+#pole{
+    display: flex;
+    width: 5vw;
+}
+#naglowek{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: center;
+}
+#pilkarz{
+    height: 25vh;
+    width: 10vw;
+}
+button{
+    width: 5%;
+}
+#przycisk{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+#pole{
+    width: 10%;
+}
